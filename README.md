@@ -1,66 +1,63 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![charts](https://github.com/user-attachments/assets/e0c0e684-f3c1-4a5b-8b49-40bff863487f = 500х500)
+![stats](https://github.com/user-attachments/assets/f185fd97-cffe-4f51-969c-7d454c32c6f1)
+![annonuncement](https://github.com/user-attachments/assets/5b50c97c-7e0e-4dba-aee8-1015307cc23b)
+![post](https://github.com/user-attachments/assets/8f912067-1c6f-4f2d-a95c-b863cf17f6f6)
+![create](https://github.com/user-attachments/assets/b33cf788-57bb-4431-8df7-5a85b4ef031c)
+![drag and drop](https://github.com/user-attachments/assets/a167cd9a-17d1-4b27-a6c8-8b9c538e4d48)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Аналіз та управління даними з інтерактивними графіками, картами та формами
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Мета проекту:
 
-## Learning Laravel
+Проект спрямований на створення веб-додатку для аналізу та управління даними з інтерактивними графіками, динамічними картами, а також формами для редагування контенту. Використано сучасні інструменти для взаємодії з користувачем, включаючи Livewire, Alpine.js, Chart.js, FinePond і drag-and-drop для покращення зручності та ефективності роботи з даними. Додаток дозволяє візуалізувати ключові бізнес-метрики, такі як кількість замовлень, користувачів, прибуток, та дає можливість зручно редагувати контент і працювати з медіафайлами.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Основні технології та інструменти:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Laravel — фреймворк для розробки бекенд-логіки додатку, обробки запитів та роботи з базою даних.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Livewire — бібліотека для створення динамічних інтерфейсів без написання значного JavaScript-коду, інтегрується безпосередньо з Laravel.
 
-## Laravel Sponsors
+Alpine.js — JavaScript-бібліотека для створення реактивних елементів інтерфейсу на фронтенді.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Chart.js — бібліотека для побудови інтерактивних графіків та діаграм.
 
-### Premium Partners
+FinePond — інструмент для завантаження та попереднього перегляду файлів, зокрема фотографій, у форму.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Drag and Drop — для сортування елементів за допомогою перетягування збереженням порядку.
 
-## Contributing
+Content Editable — можливість редагувати контент безпосередньо в інтерфейсі.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Основні функціональні можливості проекту:
 
-## Code of Conduct
+1. Динамічні графіки за допомогою Chart.js
+Використано Chart.js для створення інтерактивних графіків та діаграм, які відображають важливі бізнес-метрики, такі як кількість замовлень, користувачів, дохід (revenue) тощо.
+Дані для графіків завантажуються асинхронно з серверу, що дозволяє показувати оновлену інформацію в реальному часі без необхідності перезавантажувати сторінку.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+2. Динамічний графік з використанням Livewire та Alpine.js
+Livewire дозволяє створювати динамічні компоненти на стороні сервера, які автоматично оновлюються на клієнтській частині. Це дозволяє створити динамічні графіки, які змінюються залежно від введених користувачем фільтрів або оновлення даних.
+Використання Alpine.js для додаткової реактивності на фронтенді, наприклад, для реалізації зміни параметрів графіків (фільтрація за датами або категоріями).
 
-## Security Vulnerabilities
+3. Динамічні карти для оновлення замовлень, користувачів та доходу (revenue)
+Динамічні карти інтегровані з функціоналом для відображення актуальних даних, таких як місцезнаходження користувачів, кількість замовлень і дохід по різних регіонах.
+Кожен елемент карти оновлюється у реальному часі за допомогою Livewire. Це дозволяє користувачам отримувати інформацію про зміни без необхідності перезавантаження сторінки.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4. Форма з контентом, що можна редагувати через Content Editable
+Реалізовано можливість редагування контенту безпосередньо на сторінці за допомогою атрибута contenteditable. Це дозволяє користувачам змінювати текстові блоки або інші елементи прямо в інтерфейсі без необхідності відкривати окремі форми для редагування.
+Редаговані дані зберігаються в базі даних, що забезпечує гнучкість та зручність для користувачів, які працюють з контентом.
 
-## License
+5. Завантаження фотографій через FinePond
+Для завантаження зображень на сервер використано FinePond, що дозволяє здійснювати попередній перегляд завантажених файлів безпосередньо в інтерфейсі форми.
+FinePond забезпечує зручний та гнучкий процес завантаження зображень, з підтримкою багатофайлових завантажень, валідації форматів і розмірів файлів.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+6. Поширення коду між формами Create та Edit
+Для форм Create та Edit реалізовано спільне використання компонентів та логіки на серверній частині. Це дозволяє забезпечити consistency (узгодженість) між двома типами форм, з мінімальними змінами в коді.
+Спільний код дозволяє уникнути дублювання, зберігаючи чистоту коду і дозволяючи швидко змінювати структуру форм або їх функціонал.
+
+7. Drag and Drop з збереженням порядку елементів
+Для зміни порядку елементів на сторінці або в списку використано drag and drop з підтримкою збереження порядку елементів у базі даних.
+Це дозволяє користувачам зручно перетягувати елементи (наприклад, замовлення або продукти) у бажаному порядку, а після зміни порядок автоматично оновлюється в базі даних.
+Вся логіка збереження порядку елементів реалізована за допомогою Livewire, що забезпечує миттєву реакцію інтерфейсу без необхідності перезавантаження сторінки.
