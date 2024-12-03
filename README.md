@@ -1,6 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-![charts](https://github.com/user-attachments/assets/e0c0e684-f3c1-4a5b-8b49-40bff863487f = 500х500)
+![charts](https://github.com/user-attachments/assets/e0c0e684-f3c1-4a5b-8b49-40bff863487f)
 ![stats](https://github.com/user-attachments/assets/f185fd97-cffe-4f51-969c-7d454c32c6f1)
 ![annonuncement](https://github.com/user-attachments/assets/5b50c97c-7e0e-4dba-aee8-1015307cc23b)
 ![post](https://github.com/user-attachments/assets/8f912067-1c6f-4f2d-a95c-b863cf17f6f6)
